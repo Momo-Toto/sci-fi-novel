@@ -1,0 +1,51 @@
+# OpenClaw configuration
+.openclaw/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Discord message files (generated daily)
+discord_message_*.txt
+discord_neuro_*.txt
+discord_*.txt
+
+# Daily generated files (can be regenerated)
+sci_fi_daily_*.md
+neuro_daily_*.md
+neuro_daily_*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules
+node_modules/
+
+# Test files (keep important ones)
+# test_*
+
+# Large files
+*.zip
+*.tar
+*.gz
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OpenClaw use cases daily directories
+openclaw_usecases/daily_*/
